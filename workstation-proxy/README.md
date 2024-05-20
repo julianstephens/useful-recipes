@@ -1,6 +1,6 @@
 # Workstation Proxy
 
-This recipe includes the basic infrastructure for a workstation proxy. All services should be Dockerized and run in a single Docker Compose file. Additionally, an nginx service is required to proxy the services to a single domain. This recipe utilities [Nginx Proxy Manager](https://nginxproxymanager.com/) to easily manage the proxy configuration. To allow access outside of the home network, ngrok is used to create a secure tunnel to the workstation and expose the services to the internet. 
+This recipe includes the basic infrastructure for a workstation proxy. All services should be Dockerized and run in a single Docker Compose file. Additionally, an nginx service is required to proxy the services to a single domain. This recipe utilizes [Nginx Proxy Manager](https://nginxproxymanager.com/) to easily manage the proxy configuration. To allow access outside of the home network, ngrok is used to create a secure tunnel to the workstation and expose the services to the internet. 
 
 ## Requirements
 
