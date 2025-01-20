@@ -12,7 +12,7 @@ Prerequisites:
 
 Ensure all variables are set in the 'Variables' section of `backup.ps1`
 
-**Note**: If you are not using FTP for remote backups, comment out the 'Upload backup via FTP' section
+**Note**: If you are not using remote backups, comment out the 'Upload backup via FTP' section
 
 ```sh
 .\backup.ps1
